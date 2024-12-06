@@ -101,7 +101,7 @@ classic_pancakes.add_instruction("Serve with syrup or fruit.")
 
 
 classic_pancakes.add_ingredients([["1 cup", "flour"], ["2 tbsp", "sugar"], ["1 tsp", "baking powder"], ["1/2 tsp", "salt"], ["1", "egg"], ["1 cup", "milk"], ["2 tbsp", "butter"]])
-spaghetti_aglio_olio.add_ingredients([["200g", "spaghetti"], ["4 cloves", "garlic"], ["1/4 cup", "olive oil"], ["1 tsp", "red pepper flakes"], ["1/4 cup", "parsley"], ["salt", "to taste"], ["parmesan", "optional"]])
+spaghetti_aglio_olio.add_ingredients([["200g", "spaghetti"], ["4 cloves", "garlic"], ["1/4 cup", "olive oil"], ["1 tsp", "red pepper flakes"], ["1/4 cup", "parsley"], ["salt", "to taste"], ["optional","parmesan"]])
 caprese_salad.add_ingredients([["2", "tomatoes"], ["200g", "mozzarella"], ["fresh basil leaves", "as needed"], ["1 tbsp", "olive oil"], ["1 tbsp", "balsamic vinegar"], ["salt", "to taste"], ["pepper", "to taste"]])
 chicken_stir_fry.add_ingredients([["2", "chicken breasts"], ["1", "bell pepper"], ["1", "onion"], ["2 tbsp", "soy sauce"], ["1 tbsp", "oyster sauce"], ["1 tbsp", "cornstarch"], ["1 tbsp", "vegetable oil"]])
 veggie_tacos.add_ingredients([["2", "corn tortillas"], ["1/2 cup", "black beans"], ["1/2 cup", "corn kernels"], ["1", "avocado"], ["1/4 cup", "salsa"], ["1/4 cup", "shredded lettuce"], ["1", "lime"]])
@@ -137,7 +137,7 @@ caesar_salad.add_instruction("In a separate bowl, mix mayonnaise, garlic, lemon 
 caesar_salad.add_instruction("Toss the lettuce with the dressing until well-coated.")
 caesar_salad.add_instruction("Add croutons and parmesan cheese to the salad.")
 caesar_salad.add_instruction("Serve immediately, topped with extra parmesan if desired.")
-caesar_salad.add_ingredients([["1 head", "romaine lettuce"], ["1/2 cup", "mayonnaise"], ["2 cloves", "garlic"], ["1 tbsp", "lemon juice"], ["1 tsp", "Dijon mustard"], ["1 tsp", "anchovy paste"], ["1/2 cup", "parmesan cheese"], ["to taste", "croutons"]])
+caesar_salad.add_ingredients([["1 head", "romaine lettuce"], ["1/2 cup", "mayonnaise"], ["2 cloves", "garlic"], ["1 tbsp", "lemon juice"], ["1 tsp", "Dijon mustard"], ["1 tsp", "anchovy paste"], ["1/2 cup", "parmesan"], ["to taste", "croutons"]])
 
 beef_tacos = Recipe("Beef Tacos")
 beef_tacos.add_instruction("In a pan, brown the ground beef over medium heat.")
@@ -163,7 +163,7 @@ chicken_alfredo.add_instruction("In the same pan, melt butter and add garlic, co
 chicken_alfredo.add_instruction("Add heavy cream and bring to a simmer, then stir in parmesan cheese until smooth.")
 chicken_alfredo.add_instruction("Add cooked pasta and chicken to the sauce, toss to coat.")
 chicken_alfredo.add_instruction("Serve with extra parmesan and parsley.")
-chicken_alfredo.add_ingredients([["2", "chicken breasts"], ["200g", "pasta"], ["1/2 cup", "butter"], ["2 cloves", "garlic"], ["1 cup", "heavy cream"], ["1/2 cup", "parmesan cheese"], ["salt", "to taste"], ["pepper", "to taste"], ["parsley", "for garnish"]])
+chicken_alfredo.add_ingredients([["2", "chicken breasts"], ["200g", "pasta"], ["1/2 cup", "butter"], ["2 cloves", "garlic"], ["1 cup", "heavy cream"], ["1/2 cup", "parmesan"], ["to taste","salt"], ["to taste","pepper"], ["for garnish","parsley"]])
 
 pineapple_smoothie = Recipe("Pineapple Smoothie")
 pineapple_smoothie.add_instruction("In a blender, combine frozen pineapple chunks, banana, and yogurt.")
@@ -177,7 +177,7 @@ chicken_caesar_wrap.add_instruction("Cook the chicken breasts, then slice into s
 chicken_caesar_wrap.add_instruction("In a bowl, combine lettuce, chicken, Caesar dressing, and parmesan cheese.")
 chicken_caesar_wrap.add_instruction("Place the mixture in a wrap and roll tightly.")
 chicken_caesar_wrap.add_instruction("Serve immediately, optionally with extra dressing on the side.")
-chicken_caesar_wrap.add_ingredients([["2", "chicken breasts"], ["1 head", "romaine lettuce"], ["1/4 cup", "Caesar dressing"], ["1/4 cup", "parmesan cheese"], ["2", "wraps"]])
+chicken_caesar_wrap.add_ingredients([["2", "chicken breasts"], ["1 head", "romaine lettuce"], ["1/4 cup", "Caesar dressing"], ["1/4 cup", "parmesan"], ["2", "wraps"]])
 
 tom_yum_soup = Recipe("Tom Yum Soup")
 tom_yum_soup.add_instruction("Bring water and vegetable broth to a boil in a pot.")

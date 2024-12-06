@@ -16,7 +16,7 @@ while True:
     available_ingredients=[]
     while True:
         for ing in all_ingredients:
-            if ing[1][0]==letter_choice and ing[1][0] not in available_ingredients:
+            if ing[1][0]==letter_choice and ing[1] not in available_ingredients and (ing[1]+"s") not in available_ingredients and ing[1][:-1] not in available_ingredients:
                 available_ingredients.append(ing[1])
         if len(available_ingredients) > 0:
             break
@@ -26,15 +26,15 @@ while True:
     print("We have recipes with the following ingredients: \n")
     option = 1
     for ing in available_ingredients:
-        print(str(option) + " " + ing + "\n")
+        print(str(option) + " " + ing)
         option += 1
-    number_choice= input("Please choose the number corresponding to your ingredient: \n")
+    number_choice= input("\nPlease choose the number corresponding to your ingredient: \n")
     ingredient_choice = available_ingredients[int(number_choice)-1]
 
     print(f"\nWe have the following recipes using {ingredient_choice}: \n")
     for recipe in recipe_book:
         for recipe_ing in recipe.ingredients:
-                if ingredient_choice == recipe_ing[1]:
+                if ingredient_choice == recipe_ing[1] or (ingredient_choice+"s") == recipe_ing[1] or ingredient_choice[:-1] == recipe_ing[1] :
                     print(recipe)
                     break
     
